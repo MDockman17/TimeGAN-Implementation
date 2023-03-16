@@ -1,2 +1,2 @@
-# TimeGAN-Implementation
-An implementation of TimeGAN for 5 large market cap stocks
+# TimeGAN Implementation
+We implement TimeGAN for five large market cap stocks. TimeGAN consists of four neural networks: an embedder network to create a lower-dimensional representation that learns relationships between features, a generator to create the synthetic data, a discriminator to identify the true and fake data, and a recovery network to map the low-dimensional representation back to the ambient space. The four networks
